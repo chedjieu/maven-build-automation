@@ -13,7 +13,7 @@
     - Click on `Create` to Create a Repository
      - Repository Name: maven-sonarqube-nexus-project
      - Click on `Create`
-     - Download the Project Zip from https://github.com/awanmbandi/realworld-cicd-pipeline-project/tree/maven-sonarqube-nexus
+     - Download the Project Zip from https://github.com/chedjieu/realworld-cicd-pipeline-project/tree/maven-sonarqube-nexus
      - Unzip and Push the code to the Repository you just provisioned
 
 2) Maven
@@ -21,7 +21,7 @@
     - Instance type: t2.micro
     - Security Group (Open): 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-install/maven-install.md
+    - User data (Copy the following user data): https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-install/maven-install.md
     - Launch Instance
 
 ## Configure Nexus Repository
